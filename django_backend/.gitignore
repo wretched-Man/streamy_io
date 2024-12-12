@@ -1,0 +1,11 @@
+# Environment
+.venv
+
+#uploads
+videoSharer/media/*
+
+#cache
+__pycache__/
+
+#db
+db.sqlite3

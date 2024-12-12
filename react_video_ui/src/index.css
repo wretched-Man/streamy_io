@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .elements-wrapper {
+        @apply container mx-auto bg-transparent p-4 sm:p-7;
+    }
+
+    .form-children-style {
+        @apply *:block mx-auto w-[90%] mobile:w-[55ch];
+    }
+
+    .main-body-element {
+        @apply bg-slate-300 dark:bg-[#121315] py-16 min-h-screen
+    }
+}
